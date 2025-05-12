@@ -1,0 +1,228 @@
+.thead{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+}
+.rhead{
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.lhead{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.ibody{
+    
+    border-radius: 20px;
+    position: static;
+    
+   
+}
+.inbody{
+    top: 375px;
+    left: 400px;
+    position: absolute;
+
+}
+.i1{
+    border-radius: 20px;
+    width: 1500px;
+    
+}
+.b1{
+
+    background-color: rgba(0, 0, 255, 0.06);
+    height: 150px;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin-left: 50px ;
+    border-width: 5px;
+    border-color: rgb(0, 18, 5);
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: bold;
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 0.5px;
+    cursor: pointer ;
+    
+}
+.b1:hover{
+    background-color: #00000068;
+}
+.about{
+    padding: 10px 10px;
+    background-color: rgba(36, 158, 115, 0.814);
+    border-radius: 18px;
+}
+.contact{
+    padding: 10px 10px;
+    background-color: rgba(36, 158, 115, 0.814);
+    border-radius: 18px;
+
+}
+.footer{
+    margin-top: 50px;
+}
+.i2{
+    border-radius: 20px;
+    width: 1250px;
+    padding-left: 400px;
+}
+.a1,.ad1{
+    position: static;
+
+}
+.a2{
+    top: 300px;
+    position: absolute;
+    padding-left: 200px;
+
+}
+.al,.gl{
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+.rg:hover,.save:hover,
+.sp:hover,
+.al:hover,.ar:hover,
+.dl:hover,.vs:hover,
+.gl:hover,.gr:hover{
+    background-color: #000000ea;
+    color: white;
+}
+
+.ar,.gr{
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.i3{
+    padding-top: 80px;
+    width: 750px;
+}
+.ad2{
+    top: 150px;
+    position: absolute;
+    padding-left: 900px;
+}
+.dl{
+    margin-top: 1px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 60px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.p2{
+    top: 300px;
+    position: absolute;
+    padding-left: 150px;
+
+}
+.i4{
+    width: 1500px;
+}
+.v1{
+    position: static;
+}
+.v2{
+    top: 200px;
+    position: absolute;
+    padding-left: 500px;
+    
+}
+.v2 label{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-shadow:  2px 2px 8px black;
+    -webkit-text-stroke-width: 0.03px;
+    font-weight:bold;
+}
+.v2 h2{
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-shadow:  1px 1px 4px black;
+    -webkit-text-stroke-width: 0.03px;
+    font-weight:bold;
+}
+.v2 input{
+    font-size: 20px;
+
+}
+.vs{
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.989);
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 6px;
+}
+.table table{
+
+    border-collapse: separate; /* Must be 'separate' for `border-radius` to work */
+    border-spacing: 0;
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures that content inside the table respects the border-radius */
+    border: 1px solid #000000;
+    margin-bottom: 400px;
+    margin-left: 350px;
+    width: 800px;
+    
+    
+}
+.table th{
+    background-color: #3f92ff;
+    padding: 8px;
+}
+.table h2{
+    padding-left: 600px;
+    font-size: 40px;
+}
+.table td{
+    padding: 8px;
+    text-align: center;
+}
+
+
+.reg h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+.reg label{
+    font-size: 25px;
+    margin-left: 450px;
+}
+.reg input{
+    font-size: 20px;
+    
+}
+.rg{
+    margin-top: 25px;
+    margin-left: 700px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+
+}
+.link{
+    align-items: baseline;
+    font-size: 20px;
+}
+
