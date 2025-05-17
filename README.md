@@ -1,10 +1,4 @@
 # GatePassGenerator
-Here’s an improved, clear, and original README file for your project, tailored to your answers and best practices for PHP/MySQL intranet applications. This will help users deploy and use your Visitor Management System without confusion.
-
----
-
-## Visitor Management System
-
 A simple PHP-based web application for managing and recording visitors within an organization. Designed for intranet deployment, this system supports one admin account and allows easy registration and tracking of multiple visitors.
 
 ---
